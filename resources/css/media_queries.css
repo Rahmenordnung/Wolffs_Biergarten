@@ -1,0 +1,253 @@
+
+
+
+/*devices like bigger screens from 1023px to 1320px*/
+@media only screen and (max-width:1320px){
+    main {  max-width: 90%; }
+
+    .card{
+        display: block;
+        grid-gap:0;
+
+
+    }
+    .card img {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+}
+
+
+/*devices like small tablets from 768px to 1023px*/
+@media only screen and (max-width:1204px){
+
+.hero-text-box{
+
+    width: 100%;
+    padding: 0 2%;
+
+}
+    .row{ padding: 0 10px; }
+
+
+.logo{ height: 75px; }
+.main-nav li{ margin-left: 25px; }
+
+.section {padding: 80px 5px;}
+
+
+#important_message,
+#takeway_important{
+    margin-left: 20%;
+
+    }
+
+    body {font-size:18px;}
+    section { padding: 60px 0;}
+
+
+    .long-food-description,
+    .health-specs{
+    width: 80%;
+    margin-left: 10%;
+}
+    .enjoy-box { margin-top: 10px;  }
+    .steps_enjoy:last-child, .alert{ margin-top: 10px; }
+    .enjoy-box: { margin-bottom: 40px }
+    .enjoy-box:last-of-type{ margin-bottom: 10px }
+    .enjoy-box:first-child{ margin-top: 1%;}
+    .BierPlace,
+    .Biergarten { width: 100%; }
+
+    .drink_price{
+        float:right;
+        margin-right: 10%;
+ }
+    .icon-small{
+        margin-right: 5px;
+        }
+    .city-feature{ font-size: 90%; }
+    .price-offer{
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    main {  max-width: 95%; }
+    .card{
+        display: block;
+        grid-gap:0;
+
+    }
+    .card img {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+
+    }
+
+    .bier-list-title{
+        font-size: 30px;
+    }
+
+    .bier-list {
+        font-size: 20px;
+    }
+
+
+    .offerSpecialPrice{ font-size: 250%; }
+    .contact-form,
+    #map{width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;}
+    }
+    .form-box{ width: 100%;
+                margin-bottom: 20px
+                }
+
+#important_message,
+#takeway_inportant{
+    margin-left: 10%;
+
+}
+
+/*devices like mobile phones- large screen, or small tablets*/
+@media only screen and (max-width:767px){
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .content {
+    height: 85%;
+}
+    .row,
+    .hero-text-box,
+    .hero-COVID-box{ padding: 0 8%; }
+    .hero-text-box{ padding: 0 8%;
+                    margin-top: 20%;}
+    .col {width: 100%;
+          margin: 0 0 4% 0;
+    }
+
+    .navbar-menu-bar{padding: 3px;}
+
+   .main-nav{ display: none; }
+   .mobile-nav-icon {
+        display: inline-block;
+}
+    .main-nav {
+    float:left;
+    margin-top: 35px;
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+    .logo{
+        height: 60px;
+        margin-left: 5px;
+    }
+    .main-nav  li{
+        display: block;
+}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+}
+
+    .sticky .main-nav{ margin-top: 10px; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{ padding: 10px 0px; }
+    .sticky .mobile-nav-icon i { color:#de1010; }
+    .sticky .mobile-nav-icon i { margin-top:10px; }
+
+
+    h1{ font-size: 180%; }
+    h2{ font-size: 150%;
+        float: left;}
+    .long-food-description,
+    .health-specs{
+        width:  100%;
+        margin-left: 0%;
+
+    }
+    .BierPlace,
+    .Biergarten{ width: 100%; }
+    .enjoy-box:first-child{ text-align: center;
+                                width: 80%;
+                            margin-top: 75px;}
+    .drink_price{
+    float:right;
+    margin-right: 5%;
+ }
+
+    .bier-list{margin-top: 40%;}
+    .steps_enjoy div,
+    .alert{
+
+    display: none;
+}
+    .div#black{    font-size: x-large; }
+        .div#red{    font-size: x-large; }
+    .div#yellow{    font-size: x-large;}
+
+    .enjoy-box: { margin-bottom: 20px }
+    .enjoy-box:last-of-type{ margin-bottom: 20px }
+
+}
+#important_message,
+#takeway_inportant{
+    margin-left: 5%;
+    width: 100%
+
+}
+
+
+
+
+
+
+/*devices loke mobile phones- small screen*/
+@media only screen and (max-width:480px){
+
+    section{ padding: 25px 0; }
+    .contact-form,
+    .form-box{ width: 100%;
+                margin: 0 auto;
+                height: auto;}
+
+    #map{width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;}
+
+    .social-icons i{
+    margin-top: 10px;
+}
+
+#important_message,
+#takeway_inportant{
+    margin-left: 2%;
+    width: 100%
+
+}
+
+.mySlides{width: 90%;
+            margin: 0 auto;}
+
+}
+
+
+
+
+/*COVID MENU*//*new setting for the menu navbar*/
+/*------------------------------*/
+
+
+
+
+
+
+
+

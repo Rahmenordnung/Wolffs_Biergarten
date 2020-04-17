@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Wolff&#039;s Stubgarten, the best city summer outdoor restaurants, die beste Sommergarten in deine Stadt, la mejor terraza de verano, cerveza sabrosa. ">
+        <!--load all styles -vendors -->
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <!--load all styles -resources -->
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/media_queries.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,200;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
+
+        <title>Stubgarten</title>
+
+        <!--Favicon logo links -->
+
+        <link rel="manifest" href="/resources/fav-icon/site.webmanifest">
+        <link rel="mask-icon" href="/resources/fav-icon/safari-pinned-tab.svg" color="#5bbad5">
+
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/resources/fav-icon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+    </head>
+
+    <body>
+        <header>
+            <!--sticky nav-->
+            <nav>
+                <div class="row navbar-menu-bar">
+                <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo">
+                <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
+                    <ul class="main-nav js-main-nav">
+                        <li class="current"><a href="index.html">Welcome</a></li>
+                        <li><a href="food-menu.html">Take out - fund us</a></li>
+                        <li><a href="beer&drinks.html">Beer and Liquids</a></li>
+                        <li class="current"><a href="connect.html">Connect us</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js-mobileIcon"><i class="ion-android-menu"></i></a>
+                </div>
+            </nav>
+            <!--text over header image-->
+            <div class="hero-text-box">
+                <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
+                <a class="btn btn-full js-scrollToPrice" href="#"> I'm hungry </a>
+                <a class="btn btn-ghost js-scrollToStart" href="#"> Show me more </a>
+            </div>
+        </header>
+
+            <!--Contact form with some php on top, not working requires payment of a domain, no thank you!-->
+        <section class="section-form contact-section js-section-features ">
+
+            <div class="col span-1-of-2 enjoy-box">
+                <div class="steps_enjoy">
+                    <div id="black">1</div>
+                    <p> You can come and look around and feel the brise of the air</p>
+                </div>
+                <div class=" steps_enjoy ">
+                    <div id="red">2</div>
+                    <p>Corwded or relaxed under the shadow of the trees hiding from the sun. </p></div>
+                <div class="steps_enjoy">
+                <div id="yellow">3</div>
+                    <p> Or night time people feel the people tingle, and how the day goes away</p>
+                </div>
+            </div>
+
+           <div class="col span-1-of-2 enjoy-box">
+            <div class="form-box" id="form">
+                    <div class="row">
+                        <h2> We're happy to hear from you </h2>
+                    </div>
+                    <div class="row">
+                        <form method="post" action="contact-form.php" class="contact-form">
+
+                            <div class="row">
+                               <!-- <?php
+                                <div class="form-messages error">
+                                    Ooops, the rats ate the cable, please try again!
+                                </div>
+                                 <div class="form-messages success">
+                                    Thank you you message have been sent!
+                                </div>
+                                ?>-->
+                             </div>
+                        <div class="row">
+
+                            <div class="col span-1-of-3">
+                                <label for="name">Name</label>
+
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="Your email" required>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">How did you find us?</label>
+
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="friends" selected>Friends</option>
+                                    <option value="search" >Search engines</option>
+                                    <option value="adds">Advertisment</option>
+                                    <option value="other">Other</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Newsletter</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" name="newsletter" id="newsletter" checked> Yes please
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Drop us a comment</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row submit">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label><!--Empty space sign-->
+                            </div>
+                            <div class="col span-2-of-3 ">
+                                <input type="submit" value="Send it">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+               </div>
+        </section>
+
+
+
+        <!--Feedback-->
+        <section id="projects" class= "section-testimonials ">
+            <div class="row">
+                <h2> Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 ">
+                    <blockquote>
+                            Wolff´s Garten is just awesome! I just launched a startup here in Dublin which leaves me with no time for cooking, so each time I finsh my day I pass by and I find time to relay myself, alone or with friends, I couldn't live without my daily breaks!
+                        <cite><img class="imagCite" src="resources/css/img/customer-1.jpg" alt="customer-opinion">(Seon Connor)</cite>
+                    </blockquote>
+
+                    </div>
+                    <div class="col span-1-of-3 ">
+                    <blockquote>
+                            I was looking for a quick and easy food place meanwhile one can enjoy a good drink in the middle of San Franciso. I tried in many and this has the best food with traditional taste, and real beer place in the Bay Area. I even visited their garden in Berlin and I only heard great words. Keep up the great work!
+                        <cite><img class="imagCite" src="resources/css/img/customer-3.jpg" alt="customer-opinion">(Milton Chapman)</cite>
+                    </blockquote>
+                    </div>
+                    <div class="col span-1-of-3 ">
+                    <blockquote>
+                            Inexpensive, healthy and great-tasting meals and beer. Having the German cuisine in your own town is a great feeling  We have lots of different food locals here in Lisbon, but no one comes even close to Wolff´s, seriousity and quality. Me and my family are so in love!
+                        <cite><img class="imagCite" src="resources/css/img/customer-2.jpg" alt="customer-opinion">(Joana Silva)</cite>
+                    </blockquote>
+                </div>
+            </div>
+            </section>
+
+        <section id="contact" class="cities  js-Cities">
+         <div class="row">
+                <h2>We're currently in these cities</h2>
+        </div>
+
+        <div class="row js-animation-3">
+         <div class="col span-1-of-4 box">
+             <div class="text-hoover">
+                  <img alt="city-images" src="resources/css/img/madrid.jpg">
+                  <div class="content">
+                    <div class="text">Krüger<br>
+                        C. de la Princesa, 5, <br>
+                        28008 Madrid, Spanien
+                      </div>
+                  </div>
+                </div>
+
+             <h3>Madrid</h3>
+             <div class="city-feature">
+            <i class="ion-ios-people icon-small black"></i>
+             1600+ happy eaters
+             </div>
+
+              <div class="city-feature">
+             <i class="ion-ios-nutrition icon-small "></i>
+            60+ top chefs
+             </div>
+
+             <div class="city-feature">
+             <i class="ion-social-twitter icon-small yellow"></i>
+            <a href="#">@omnifood_mad</a>
+             </div>
+        </div>
+
+         <div class="col span-1-of-4 box">
+                <div class="text-hoover">
+                <img alt="city-images" src="resources/css/img/san-francisco.jpg">
+                  <div class="content">
+                    <div class="text">Krüger<br>
+                        C. de la Princesa, 5, <br>
+                        28008 Madrid, Spanien
+                      </div>
+                  </div>
+                </div>
+             <h3>San Francisco</h3>
+
+             <div class="city-feature">
+            <i class="ion-ios-people icon-small black"></i>
+            3700+ happy eaters
+             </div>
+
+              <div class="city-feature">
+             <i class="ion-ios-nutrition icon-small"></i>
+            160+ top chefs
+             </div>
+
+             <div class="city-feature">
+             <i class="ion-social-twitter icon-small yellow"></i>
+            <a href="#">@omnifood_sf</a>
+             </div>
+         </div>
+
+         <div class="col span-1-of-4 box">
+             <div class="text-hoover">
+                <img alt="city-images" src="resources/css/img/berlin.jpg">
+                <div class="content">
+                    <div class="text">Krüger<br>
+                        C. de la Princesa, 5, <br>
+                        28008 Madrid, Spanien
+                      </div>
+                  </div>
+                </div>
+             <h3>Berlin</h3>
+             <div class="city-feature">
+            <i class="ion-ios-people icon-small black"></i>
+            2300+ happy eaters
+             </div>
+
+              <div class="city-feature">
+             <i class="ion-ios-nutrition icon-small"></i>
+            110+ top chefs
+             </div>
+
+             <div class="city-feature">
+             <i class="ion-social-twitter icon-small yellow"></i>
+            <a href="#">@omnifood_berlin</a>
+             </div>
+         </div>
+
+         <div class="col span-1-of-4 box">
+             <div class="text-hoover">
+             <img alt="city-images" src="resources/css/img/Dublin.jpg">
+                  <div class="content">
+                    <div class="text">Krüger<br>
+                        C. de la Princesa, 5, <br>
+                        28008 Madrid, Spanien
+                      </div>
+                  </div>
+                </div>
+            <h3>Dublin</h3>
+
+             <div class="city-feature">
+            <i class="ion-ios-people icon-small black"></i>
+            1200+ happy eaters
+             </div>
+
+              <div class="city-feature">
+             <i class="ion-ios-nutrition icon-small"></i>
+            50+ top chefs
+             </div>
+
+             <div class="city-feature">
+             <i class="ion-social-twitter icon-small yellow"></i>
+                 <a href="#">@omnifood_dublin</a>
+             </div>
+         </div>
+        </div>
+    </section>
+
+                <!--Map-->
+            <div class="map-box">
+                <div class="row">
+            <h2 id="map-header"> Where you can find us...</h2>
+            </div>
+                <div id="map"></div>
+            </div>
+
+
+        <!--footer-->
+        <footer class="contact-footer">
+        <div class="row">
+            <div class=" span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android app</a></li>
+                </ul>
+            </div>
+            <div class=" span-2-of-2">
+                <ul class="social-icons">
+                    <i class="ion-social-facebook-outline"></i>
+                    <i class="ion-social-twitter-outline"></i>
+                    <i class="ion-social-linkedin-outline"></i>
+                    <i class="ion-social-instagram-outline"></i>
+                    <i class="ion-social-googleplus-outline"></i>
+                </ul>
+            </div>
+        </div>
+            <div>
+                <p>
+                    Copyright &copy; by Wolff´s. All rights reserved.
+                </p>
+            </div>
+
+    </footer>
+
+        <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script  src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script>
+
+        /*google maps API*/
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+
+        zoom: 6,
+        center: new google.maps.LatLng(53.3497645, -6.2602732),
+        mapTypeId: 'terrain',
+        scrollwheel: true,
+        draggable: true,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
+
+    });
+
+/*google maps clusters geographical data*/
+    var locations = [{
+        lat: 40.430390, //Madrid, mora//
+        lng: -3.701550,
+        title: 'Madrid',
+        businnes:'<u>Wolff´s Biergarten Bilbao </u>, Calle de Hartzenbusch, 12, 28010 Madrid, Spain'
+    }, {
+        lat: 37.765990, //Paris Colonel//
+        lng: -122.240180,
+        title:'San Francisco',
+        businnes:'<u>Wolff´s Biergarten Alameda</u>, 2424 Lincoln Ave, Alameda'
+
+    }, {
+        lat: 52.484690, //Reims
+        lng: 13.360130,
+        title:'Berlin',
+        businnes:'<u>Wolff´s Biergarte Schöneberg </u>, Gotenstraße 1, 10829 Berlin, Germany'
+    }, {
+        lat: 53.343260, //Lille
+        lng: -6.273460,
+        title:'Dublin',
+        businnes:'<u>Wolff´s BierGarten Liberis</u>, 13 High St, The Liberties, Dublin 8, D08 K092'
+    }];
+
+    /*google maps clusters functions and hover effect*/
+    var markers = locations.forEach(function(location, i) {
+            var infowindow = new google.maps.InfoWindow({
+            content:  location.businnes || 'no information'
+        });
+
+        var marker = new google.maps.Marker({
+            position: {lat: location.lat, lng: location.lng},
+            map: map,
+            title: location.title || 'not found'
+
+        });
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+    });
+}
+      </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjNkE606exPyjCSZUKOr9lrf5jO1UiCF8&callback=initMap"
+            async defer>
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
