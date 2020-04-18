@@ -140,10 +140,10 @@ h2:after{           /*setting for element after the defined element*/
 
 a:link,
 a:visited{
-    color:#fed330;
+    color:#555555;
     text-decoration: none;
     border-bottom: 1px solid #fed330;
-    padding-bottom: 1px;
+    padding-bottom: 5px;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -171,7 +171,7 @@ input[type=submit]{
 
 .btn-full:link,             /*specifications for the hoover effects, and mouse over , mouse clicking the button*/
 .btn-full:visited,
-input[type=submit]{     /* only contact forms with the capacity of choosing fields only with the sepcified type inside*/
+input[type=submit]{     /* only contact forms choosing fields only with the sepcified type inside*/
     background-color: #ee1a00;
     border:1px solid #ee1a00;
     color:#fff;
@@ -229,7 +229,7 @@ header,
 
 
 .logo{
-    height: 100px;
+    height: 116px;
     width: auto;
     float:left;
     margin-top: 20px;
@@ -371,6 +371,7 @@ header,
 /* food meals page and text setings*/
 /*-*-*-*-*-*-*-*-*-*-**-*-*/
 
+.features-slider, .slider-box, .food_menu {padding: 0;} /*padding reseter*/
 
 .title{padding: 7px;
     background-color:#f9f9f9;
@@ -688,6 +689,96 @@ to {opacity: 1}
 
 }
 
+/*--------------------------------*/
+/*price offers section with modal*/
+/*-------------------------------*/
+.offers-box:first-child{
+    padding-right: 3%;
+    margin-left: 10%;
+    width: 35%;
+    color:#fff;
+    margin-top: 5%;
+}
+
+.offers-box:last-child{margin-top: 5% }
+
+.modal_luncher{
+    position:absolute;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_button a{
+    color:#5b5b5b;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.modal_button{
+    background: #fed330;
+    padding: 10px 15px;
+    color:#cc0000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,00.75);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.modal_button:{
+    background: #f22727;
+    color:#fff;
+}
+.modal-header {padding:35px 50px;}
+
+/*---------modal setings popup------*/
+
+.popup{
+    background: rgba(0,0,0,0.6);
+    width:100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content{
+    height: 310px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input{
+    margin: 20px auto;
+    display:block;
+    width:50%;
+    padding: 8px;
+    border: 1px solid #fed330;
+}
+
+.close{
+    position: absolute;
+    top:-15px;
+    right: -15px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,00.75);
+    cursor: pointer;
+}
+
+.bier{margin-right: 27px;}
+
+
 
 /*------------------------------*/
 /*enjoy-section*/
@@ -700,11 +791,12 @@ to {opacity: 1}
     margin-left: 10%;
     width: 35%;
     color:#fff;
+    margin-top: 13%;
 }
 
-.enjoy-box{ margin-top: 30px; }
+.enjoy-box,.offers-box{ margin-top: 30px; }
 
-.enjoy-box:last-child{margin-top: 2% }
+.enjoy-box:last-child{margin-top: 0% }
 
 .free_offer_image{ width: 100%;}
 .Biergarten{ width:90%;
@@ -905,7 +997,6 @@ cite img{
     -webkit-transform: translateY(0%);
 }
 
-
 /*------------------------------*/
 /* Form */
 /*------------------------------*/
@@ -997,6 +1088,7 @@ footer{
 .social-icons{
     list-style: none;
     float:right;
+    color:#fd0000;
 }
 
 .footer-nav li,
@@ -1096,8 +1188,8 @@ footer p{
 }
 
 #map-header{
-
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 

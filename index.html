@@ -4,21 +4,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Wolff&#039;s Stubgarten, the best city summer outdoor restaurants, die beste Sommergarten in deine Stadt, la mejor terraza de verano, cerveza sabrosa. ">
+
         <!--load all styles -vendors -->
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link href="resources/css/easyScrollDots.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
         <!--load all styles -resources -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/media_queries.css">
 
-
+        <!--Google fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,200;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
-
-
-        <link href="resources/css/easyScrollDots.css" rel="stylesheet">
 
         <title>Stubgarten</title>
 
@@ -38,8 +42,8 @@
         <header>
             <nav>
                 <div class="row navbar-menu-bar">
-                <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo">
-                <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
+                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo">
+                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
                     <ul class="main-nav js-main-nav">
                         <li class="current"><a href="index.html">Welcome</a></li>
                         <li><a href="food-menu.html">Take out - fund us</a></li>
@@ -115,7 +119,7 @@
                             <ul>
                                 <li><i class="ion-android-done icon-small"></i>1 meal every day</li>
                                 <li><i class="ion-android-done icon-small"></i>Order 24/7</li>
-                                <li><i class="ion-android-done icon-small"></i>Access to newest creations</li>
+                                <li><i class="ion-android-done icon-small"></i>High demand, available until end Year</li>
                                 <li><i class="ion-android-done icon-small"></i>Free delivery</li>
                             </ul>
                         <div >
@@ -157,6 +161,7 @@
                             <ul>
                                 <li><i class="ion-android-done icon-small"></i>1 meal</li>
                                 <li><i class="ion-android-done icon-small"></i>Order from 8 am to 12 pm</li>
+                                <li><i class="ion-android-done icon-small"></i>Access to newest creations</li>
                                 <li><i class="ion-android-done icon-small"></i>Free delivery</li>
                                 <li><i class="icon-small"></i></li>
                             </ul>
@@ -234,36 +239,44 @@
             <h2>How it is? &mdash; To enjoy summer</h2>
         </div>
             <div class="row">
-                <div class="col span-1-of-2 enjoy-box">
+                <div class="col span-1-of-2 offers-box">
                     <img src="resources/css/img/germansmoothunity.jpeg" alt="free offer image" class=" free_offer_image js-animation-2">
 
                 </div>
-                <div class="col span-1-of-2 enjoy-box">
+                <div class="col span-1-of-2 offers-box">
                     <div class="steps_enjoy">
                         <div id="black">1</div>
-                        <p> You can come and look around and feel the brise of the air</p>
+                        <p> Come and join our special German Unity day, We raffle 500 suscriptions, worldwide for our Garten </p>
                     </div>
                     <div class=" steps_enjoy ">
                         <div id="red">2</div>
-                        <p>Corwded or relaxed under the shadow of the trees hiding from the sun. </p></div>
+                        <p> <strong>FREE</strong> food and beer for you and 4 of your friends from the first selected emails</p></div>
                     <div class="steps_enjoy">
                     <div id="yellow">3</div>
-                        <p> Or night time people feel the people tingle, and how the day goes away</p>
+                        <p> Send us your email and we will get back to you with an answer, click ENJOY</p>
+                    </div>
+
+                    <div class="modal_luncher">
+                        <button type="button" class="btn btn-full modal_button" id="myBtn">ENJOY</button>
                     </div>
                 </div>
             </div>
 
+
+             <!-- Modal -->
+
+
+
+
         <section id="about" class="enjoy-section">
 
-
-    <!--***************************************************-->
 
 
 
         </section>
 
 
-
+      <!--footer-->
         <footer>
             <div class="row">
                 <div class=" span-1-of-2">
@@ -292,6 +305,8 @@
             </div>
         </footer>
 
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
         <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
@@ -300,6 +315,10 @@
 
     <script  src="resources/js/script.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/bootbox.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 
 
@@ -319,20 +338,20 @@
 
             });
         </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.modal_button').on('click',function(){
+                    bootbox.prompt({
+                    title: "This is a prompt with an email input!",
+                    inputType: 'email',
+                    callback: function (result) {
+                    console.log(result);
 
-        <!--Login form-->
-<script>
-    const signUpButton = document.getElementById('signUp');
-    const signInButton = document.getElementById('signIn');
-    const container = document.getElementById('container');
-
-
-
-</script>
-
-
-
-
+                    }
+                    });
+                });
+            });
+        </script>
     </body>
 </html>
 
