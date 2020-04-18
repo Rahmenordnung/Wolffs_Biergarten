@@ -14,6 +14,9 @@
 
 
 
+
+
+
         <!--load all styles -resources -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/media_queries.css">
@@ -254,9 +257,21 @@
                         <p> Send us your email and we will get back to you with an answer, click ENJOY</p>
                     </div>
 
-                    <div class="modal_luncher">
-                        <button type="button" class="btn btn-full modal_button" id="myBtn">ENJOY</button>
-                    </div>
+                    <!--Call your modal-->
+    <a id="demo01" href="#animatedModal">DEMO01</a>
+
+    <!--DEMO01-->
+    <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-animatedModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+                  <!--Your modal content goes here-->
+        </div>
+    </div>
+
                 </div>
             </div>
 
@@ -303,8 +318,6 @@
             </div>
         </footer>
 
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
         <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
@@ -313,7 +326,8 @@
 
     <script  src="resources/js/script.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="vendors/js/bootbox.min.js"></script>
+
+
 
 
 
@@ -335,6 +349,9 @@
               'fixedNavUpward': false
 
             });
+        </script>
+        <script>
+
         </script>
 
     </body>
