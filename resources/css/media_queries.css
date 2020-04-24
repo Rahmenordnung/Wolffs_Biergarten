@@ -158,6 +158,9 @@
     .text {font-size: 14px;
             margin-top: 15px;
     }
+    .meals-showcase li{
+        width: 50%;
+    }
     /*drinks*/
     .BierPlace,
     .Biergarten{ width: 100%; }
@@ -185,6 +188,7 @@
         margin-left: 5%;
         width: 100%
     }
+    /*footer*/
 
     ul.footer-nav{width: 49%}
 

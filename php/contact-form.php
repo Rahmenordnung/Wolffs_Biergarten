@@ -8,7 +8,7 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: http://www.Stubgarten.com.de/stubgarten/index.php?success=-1#form");
+        header("Location: http://www.Wolff´Stubgarten.com.de/stubgarten/index.php?success=-1#form");
         exit;
     }
 
@@ -28,8 +28,8 @@
 
     // Send the email.
     mail($recipient, $subject, $email_content, $email_headers);
-    
+
     // Redirect to the index.html page with success code
-    header("Location: http://www.Stubgarten.com.de/stubgarten/index.php?success=1#form");
+    header("Location: http://www.Wolff´Stubgarten.com.de/stubgarten/index.php?success=1#form");
 
 ?>

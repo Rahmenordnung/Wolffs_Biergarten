@@ -27,8 +27,19 @@ $('.js-section-features').waypoint(function(direction) {
     });
 
     $('.js-scrollToCities').click(function () {
-       $('html, body').animate({scrollTop: $('.js-Cities').offset().top}, 1000);
+       $('html, body').animate({scrollTop: $('.js-Raffle').offset().top}, 1000);
     });
+
+/*food-menu*/
+
+     $('.js-scrollToEntree').click(function () {
+       $('html, body').animate({scrollTop: $('.js-Entree').offset().top}, 1000);
+    });
+
+    $('.js-scrollToSlider').click(function () {
+       $('html, body').animate({scrollTop: $('.js-Slider').offset().top}, 1000);
+    });
+
 
 /*bier and drinks*/
 
