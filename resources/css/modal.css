@@ -1,0 +1,117 @@
+/* General Styles */
+
+
+/* Container for Modal Control + Modal Control */
+
+.demo-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-control {
+  padding: 1rem;
+  border: 5px solid;
+  border-image: linear-gradient(to right , #000000, #100608, #221012, #301315, #EF0606, #EF0606, #EF0606, #EF0606, #f6ff02, #f6ff02, #f6ff02, #f6ff02) 8;
+  text-align: center;
+
+}
+
+button {
+  font: inherit;
+  background: transparent;
+  border: 2px solid #521751;
+  padding: 0.5rem 1rem;
+  color: #521751;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+button:hover,
+button:active {
+  border-color: #fa923f;
+  color: #fa923f;
+}
+
+/* The Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  top: 40%;
+  left: 20%;
+  width: 60%;
+  background: white;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.modal h1 {
+  color: #521751;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+    text-align: center;
+}
+
+.modal-input {
+  margin: 0.5rem 0;
+}
+
+.modal-input textarea {
+  width: 100%;
+  font: inherit;
+  resize: none;
+}
+
+.modal-input textarea:focus {
+  outline: none;
+  background: #ffdbfe;
+  border-color: #521751;
+}
+
+.modal-actions {
+  text-align: center;
+}
+
+button.btn-cancel {
+  border-color: #f4f4f4;
+  color: #010400;
+  margin-bottom: 8px;
+  background-color: #EF0606;
+}
+
+button.btn-cancel:hover,
+button.btn-cancel:active {
+  color: white;
+  background: red;
+}
+
+button.btn-confirm {
+  border-color: #efefef;
+  color: #000400;
+  background-color: #30b230;
+}
+
+button.btn-confirm:hover,
+button.btn-confirm:active {
+  color: white;
+  background: green;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.open {
+  display: block;
+}

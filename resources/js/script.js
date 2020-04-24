@@ -20,7 +20,7 @@ $('.js-section-features').waypoint(function(direction) {
 
 
  /* Scroll on buttons */
-
+/*index*/
 
      $('.js-scrollToPrice').click(function () {
        $('html, body').animate({scrollTop: $('.js-Prices').offset().top}, 1000);
@@ -28,6 +28,26 @@ $('.js-section-features').waypoint(function(direction) {
 
     $('.js-scrollToCities').click(function () {
        $('html, body').animate({scrollTop: $('.js-Cities').offset().top}, 1000);
+    });
+
+/*bier and drinks*/
+
+     $('.js-scrollToWein').click(function () {
+       $('html, body').animate({scrollTop: $('.js-wein').offset().top}, 1000);
+    });
+
+    $('.js-scrollToBlack').click(function () {
+       $('html, body').animate({scrollTop: $('.js-black').offset().top}, 1000);
+    });
+
+/*connect*/
+
+     $('.js-scrollToPlace').click(function () {
+       $('html, body').animate({scrollTop: $('.js-Location').offset().top}, 1000);
+    });
+
+    $('.js-scrollToOpinion').click(function () {
+       $('html, body').animate({scrollTop: $('.js-Comments').offset().top}, 1000);
     });
 
 
@@ -172,7 +192,9 @@ $(function() {
     });
 
 
-/*login form*/
+/*confirmation/cancel modal form*/
+
+
 
 
 

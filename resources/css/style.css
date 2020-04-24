@@ -1,5 +1,3 @@
-
-
 /*general settings*/
 *{
     margin:0;
@@ -207,15 +205,22 @@ input[type=submit]{ background-color: #ff3838; }
 /*header and main image ("hero")*/
 /*------------------------------*/
 
-header,
-.img-header-slider{
+.image_hero_index,
+.image_hero_food,
+.image_hero_bier,
+.image_hero_connect
+{
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/table-hero-min.jpg);/*shadow effect on image, double layer*/
     background-size:cover;
     background-position: center;
     height: 100vh;/*one full screen*/
     background-attachment: fixed;
 
+}
+.image_hero_food{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/grill.jpg);/*shadow effect on image, double layer*/}
+.image_hero_bier{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/taste.jpg);/*shadow effect on image, double layer*/}
+.image_hero_connect{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/glasses.jpg);/*shadow effect on image, double layer*/}
+.image_hero_index{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/biergarten.jpg);/*shadow effect on image, double layer*/
 }
 
 .hero-text-box{
@@ -258,6 +263,7 @@ header,
     float: right;
     list-style: none;
     margin-top: 50px;
+    font-weight: 700;
 
 }
 .main-nav li{
@@ -371,7 +377,9 @@ header,
 /* food meals page and text setings*/
 /*-*-*-*-*-*-*-*-*-*-**-*-*/
 
-.features-slider, .slider-box, .food_menu {padding: 0;} /*padding reseter*/
+.features-slider, .slider-box, .food_menu {
+    padding: 0;    /*padding reseter*/
+    margin-bottom: 40px;}
 
 .title{padding: 7px;
     background-color:#f9f9f9;
@@ -457,7 +465,6 @@ header,
     -ms-transform: scale(1.2) translateY(-10px);
     transform: scale(1.2) translateY(-10px);
 }
-
 
 /* beer & drinks setings*/
 /*-*-*-*-*-*-*-*-*-*-**-*-*/
@@ -631,8 +638,8 @@ background-color: rgba(0,0,0,0.8);
 }
 /* Caption text */
 .text {
-color: #780206;
-font-size: 18px;
+color: #120202;
+font-size: 22px;
 padding: 8px 12px;
 position: absolute;
 bottom: 8px;
@@ -644,8 +651,8 @@ font-weight: 600;
 }
 /* Number text (1/10 etc) */
 .numbertext {
-color: #780206;
-font-size: 12px;
+color: #1c0001;
+font-size: 14px;
 padding: 8px 12px;
 position: absolute;
 top: 0;
@@ -969,7 +976,6 @@ cite img{
       }
  .content {
       opacity:0;
-      font-size: 40px;
       position:absolute;
       top:0;
       left:0;
@@ -1007,7 +1013,7 @@ cite img{
 }
 .form-box{
     background-color: rgba(255,255, 255, 0.8);
-    height: 660px;
+    height: auto;
     padding-top: 60px;
     margin-top: 50px;
 }
@@ -1039,12 +1045,15 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    margin-bottom: 15px;
 
 }
 
 textarea{ height: 100px; }
 
 input[type=checkbox] { margin: 10px 5px 10px 0; }
+
+.connect-titles{margin-top: 6%}
 
 *:focus{  outline: none; } /*desactivate the default chome outlining in blue from the  form*/
 
@@ -1073,7 +1082,7 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
 
 footer{
     background-color: #212421;
-    padding:50px;
+    padding:20px;
     font-size:90%;
 }
 .contact-footer{
@@ -1191,62 +1200,3 @@ footer p{
     margin-top: 10%;
     margin-bottom: 5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

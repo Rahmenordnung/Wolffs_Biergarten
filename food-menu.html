@@ -37,10 +37,11 @@
     <body>
          <!--Navbar, hero.image, logo -->
         <header>
+           <div class="image_hero_food">
             <nav>
                 <div class="row navbar-menu-bar">
-                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo">
-                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
+                    <img src="resources/img/logo/biergartenlogo.jpg" alt="bierstube" class="logo">
+                    <img src="resources/img/logo/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
                     <ul class="main-nav js-main-nav">
                         <li><a href="index.html">Welcome</a></li>
                         <li class="current"><a href="food-menu.html">Take out - fund us</a></li>
@@ -57,6 +58,7 @@
                     <a class="btn btn-full js-scrollToPrice" href="#"> I'm hungry </a>
                     <a class="btn btn-ghost js-scrollToStart" href="#"> I'm interestested </a>
             </div>
+            </div>
         </header>
 
         <!--Images with hoover text introduction from Food menu -->
@@ -66,7 +68,7 @@
                     <ul id="da-thumbs" class="da-thumbs">
                         <li>
                             <a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-                                <img src="resources/css/img/Food_menu_grid_with_hover/suppen.jpg" />
+                                <img src="resources/img/Food_menu_grid_with_hover/suppen.jpg">
                                 <div><span>Open your day with a warm soup</span></div>
                             </a>
                         </li>
@@ -76,7 +78,7 @@
                     <ul id="da-thumbs2" class="da-thumbs">
                         <li>
                             <a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-                                <img src="resources/css/img/Food_menu_grid_with_hover/pinkel-mit-gruenkohl.jpg" />
+                                <img src="resources/img/Food_menu_grid_with_hover/pinkel-mit-gruenkohl.jpg" />
                                 <div><span>Food that will make you enjoy the rest of the day</span></div>
                             </a>
                         </li>
@@ -86,7 +88,7 @@
                     <ul id="da-thumbs3" class="da-thumbs">
                         <li>
                             <a href="http://dribbble.com/shots/502538-Natalie-Justin-Cleaning">
-                                <img src="resources/css/img/Food_menu_grid_with_hover/schwarzwaelder-kirschtorte.jpg" />
+                                <img src="resources/img/Food_menu_grid_with_hover/schwarzwaelder-kirschtorte.jpg" />
                                 <div><span>Have a taste of our emblematic desserts</span></div>
                             </a>
                         </li>
@@ -146,7 +148,7 @@
 
             <!--Food menu with price -->
             <div class="col span-1-of-2">
-                <div class="steps_enjoy">
+                <div class="steps_enjoy js-food_menu">
                     <div class="alert"><i class="ion-ios-list"></i></div><h2 class="menu-text menu_header" ><strong>CURRENT Wolff´s BierGarten&nbsp;MENU</strong></h2>
                         <p class="menu-text title_menu"><strong>APPETIZER</strong><i class=" menu_icon ion-coffee"></i></p>
                         <br>
@@ -189,61 +191,96 @@
     </section>
 
     <!--Food slide, with food images -->
-        <section class="features-slider ">
+        <section class="features-slider">
             <div class="slider-box">
                 <div class="row">
-                    <h2 id="map-header"> Where you can find us...</h2>
+                    <h2 id="map-header"> Think about eating</h2>
                 </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
                 <div class="numbertext">1 / 1</div>
-                <img src="resources/css/img/bier-und-brezel.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
-                <div class="text">Bier und Brezel</div>
+                <img src="resources/img/slider_food_photos/bayerischer-kaiserschmarrn.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
+                <div class="text">Bayerischer Kkaiserschmarrn</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">2 / 2</div>
-                <img src="resources/css/img/chukrut.jpg" alt="Biergarten" class="Biergarten"  style="width:100%">
-                <div class="text">Chukrut</div>
+                <img src="resources/img/slider_food_photos/bayerisches-buchtelblechjpg.jpg" alt="Biergarten" class="Biergarten"  style="width:100%">
+                <div class="text">Bayerisches-Buchtelblech</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
-                <img src="resources/css/img/Currywurst.jpg" alt="Biergarten" class="Biergarten " style="width:100%">
-                <div class="text">Currywurst</div>
+                <img src="resources/img/slider_food_photos/beer-garden-685258_1920.jpg" alt="Biergarten" class="Biergarten " style="width:100%">
+                <div class="text">Brezeln mit RissKlopf</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">4 / 4</div>
-                <img src="resources/css/img/schweinshaxen.jpg" alt="Biergarten" class="Biergarten " style="width:100%">
-                <div class="text">Schweinshaxen</div>
+                <img src="resources/img/slider_food_photos/bier-und-brezel.jpg" alt="Biergarten" class="Biergarten " style="width:100%">
+                <div class="text">Bier und Brezeln</div>
               </div>
             <div class="mySlides fade">
                 <div class="numbertext">5 / 5</div>
-                <img src="resources/css/img/gurken-kartoffel-salat.jpg"  alt="Biergarten" class="Biergarten " style="width:100%">
-                <div class="text">Gurken Kartoffel Salat</div>
+                <img src="resources/img/slider_food_photos/bleder_cremeschnitten.jpg"  alt="Biergarten" class="Biergarten " style="width:100%">
+                <div class="text">Cremeschitte</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">6 / 6</div>
-                <img src="resources/css/img/Pilz-Frikadellen.jpg" alt="Biergarten" class="Biergarten " style="width:100%">
-                <div class="text">Pilz Frikadellen</div>
+                <img src="resources/img/slider_food_photos/BrezelnSalz.jfif" class="Biergarten " style="width:100%">
+                <div class="text">Salzige Brezeln</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">7 / 7</div>
-                <img src="resources/css/img/roulade.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
-                <div class="text">Rinde rouladen</div>
+                <img src="resources/img/slider_food_photos/chukrut.jpg" class="Biergarten" style="width:100%">
+                <div class="text">Chukrut</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">8 / 8</div>
-                <img src="resources/css/img/BrezelnSalz.jfif" alt="Biergarten" class="Biergarten" style="width:100%">
-                <div class="text">Brezeln</div>
+                <img src="resources/img/slider_food_photos/currywurst.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
+                <div class="text">Thurringer Wurst</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">9 / 9</div>
-                <img src="resources/css/img/bleder_cremeschnitten.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
-                <div class="text">Cremeschnitten</div>
+                <img src="resources/img/slider_food_photos/Germkn%C3%B6del_Vanilleso%C3%9Fe.jpg" alt="Biergarten" class="Biergarten" style="width:100%">
+                <div class="text">Germkndel Vanillesosse</div>
               </div>
               <div class="mySlides fade">
                 <div class="numbertext">10 / 10</div>
-                <img src="resources/css/img/bayerisches-buchtelblechjpg.jpg" alt="Biergarten " style="width:100%">
-                <div class="text">Bayerisches Buchtelblech</div>
+                <img src="resources/img/slider_food_photos/grillwuerstchen-mit-salat-und-maiskolben-min.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Grillwuerstchen mit salat und maiskolben</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">11 / 11</div>
+                <img src="resources/img/slider_food_photos/gurken-kartoffel-salat.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Gurken Kartoffel Salat</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">12 / 12</div>
+                <img src="resources/img/slider_food_photos/Kaiserslautern%20Roulade.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Kaiserslautern Roulade</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">13 / 13</div>
+                <img src="resources/img/slider_food_photos/Pilz-Frikadellen.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Pilz Frikadellen</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">14 / 14</div>
+                <img src="resources/img/slider_food_photos/roulade.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Roulade</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">15 / 15</div>
+                <img src="resources/img/slider_food_photos/salat.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Salat</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">16 / 16</div>
+                <img src="resources/img/slider_food_photos/schweinshaxen.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Schweinshaxen</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">17 / 17</div>
+                <img src="resources/img/slider_food_photos/vegetarische-bulgur-frikadellen.jpg" alt="Biergarten " style="width:100%">
+                <div class="text">Vegetarische Bulgur Frikadellen</div>
               </div>
 
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -261,6 +298,13 @@
               <span class="dot" onclick="currentSlide(8)"></span>
               <span class="dot" onclick="currentSlide(9)"></span>
               <span class="dot" onclick="currentSlide(10)"></span>
+              <span class="dot" onclick="currentSlide(11)"></span>
+              <span class="dot" onclick="currentSlide(12)"></span>
+              <span class="dot" onclick="currentSlide(13)"></span>
+              <span class="dot" onclick="currentSlide(14)"></span>
+              <span class="dot" onclick="currentSlide(15)"></span>
+              <span class="dot" onclick="currentSlide(16)"></span>
+              <span class="dot" onclick="currentSlide(17)"></span>
             </div>
         </div>
     </section>

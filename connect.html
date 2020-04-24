@@ -33,10 +33,11 @@
     <body>
         <!--Navbar, hero.image, logo -->
         <header>
+           <div class="image_hero_connect">
             <nav>
                 <div class="row navbar-menu-bar">
-                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo">
-                    <img src="resources/css/img/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
+                    <img src="resources/img/logo/biergartenlogo.jpg" alt="bierstube" class="logo">
+                    <img src="resources/img/logo/biergartenlogo.jpg" alt="bierstube" class="logo-borders">
                     <ul class="main-nav js-main-nav">
                         <li class="current"><a href="index.html">Welcome</a></li>
                         <li><a href="food-menu.html">Take out - fund us</a></li>
@@ -49,8 +50,9 @@
             <!--text over header image-->
             <div class="hero-text-box">
                 <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-                <a class="btn btn-full js-scrollToPrice" href="#"> I'm hungry </a>
-                <a class="btn btn-ghost js-scrollToStart" href="#"> Show me more </a>
+                <a class="btn btn-full js-scrollToPlace" href="#"> Take me </a>
+                <a class="btn btn-ghost js-scrollToOpinion" href="#"> Comments </a>
+            </div>
             </div>
         </header>
 
@@ -67,7 +69,7 @@
                     <p>Your impressions count for us for growing and improving</p></div>
                 <div class="steps_enjoy">
                 <div id="yellow">3</div>
-                    <p> All the messages are read all nights, after ending our service, so that we can relate your comments to our service in a better way</p>
+                    <p> We read the comments after ending our service, so that we can relate your comments to our service in a better way</p>
                 </div>
             </div>
             <div class="col span-1-of-2 enjoy-box">
@@ -90,7 +92,7 @@
                              </div>
                         <div class="row">
 
-                            <div class="col span-1-of-3">
+                            <div class="col span-1-of-3 connect-titles">
                                 <label for="name">Name</label>
 
                             </div>
@@ -100,7 +102,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col span-1-of-3">
+                            <div class="col span-1-of-3 connect-titles">
                                 <label for="email">Email</label>
 
                             </div>
@@ -110,7 +112,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col span-1-of-3">
+                            <div class="col span-1-of-3 connect-titles">
                                 <label for="find-us">How did you find us?</label>
 
                             </div>
@@ -125,7 +127,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col span-1-of-3">
+                            <div class="col span-1-of-3 connect-titles">
                                 <label>Newsletter</label>
                             </div>
                             <div class="col span-2-of-3">
@@ -133,7 +135,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col span-1-of-3">
+                            <div class="col span-1-of-3 connect-titles">
                                 <label>Drop us a comment</label>
                             </div>
                             <div class="col span-2-of-3">
@@ -155,7 +157,7 @@
     </section>
 
     <!--Feedback with faces icons-->
-    <section id="projects" class= "section-testimonials ">
+    <section id="projects" class= "section-testimonials js-Comments">
         <div class="row">
             <h2> Our customers can't live without us</h2>
         </div>
@@ -163,28 +165,27 @@
             <div class="col span-1-of-3 ">
                 <blockquote>
                         Wolff´s Garten is just awesome! I just launched a startup here in Dublin which leaves me with no time for cooking, so each time I finsh my day I pass by and I find time to relay myself, alone or with friends, I couldn't live without my daily breaks!
-                    <cite><img class="imagCite" src="resources/css/img/customer-1.jpg" alt="customer-opinion">(Seon Connor)</cite>
+                    <cite><img class="imagCite" src="resources/img/comment_users_photos/customer-1.jpg" alt="customer-opinion">(Seon Connor)</cite>
                 </blockquote>
 
                 </div>
                 <div class="col span-1-of-3 ">
                 <blockquote>
                         I was looking for a quick and easy food place meanwhile one can enjoy a good drink in the middle of San Franciso. I tried in many and this has the best food with traditional taste, and real beer place in the Bay Area. I even visited their garden in Berlin and I only heard great words. Keep up the great work!
-                    <cite><img class="imagCite" src="resources/css/img/customer-3.jpg" alt="customer-opinion">(Milton Chapman)</cite>
+                    <cite><img class="imagCite" src="resources/img/comment_users_photos/customer-3.jpg" alt="customer-opinion">(Milton Chapman)</cite>
                 </blockquote>
                 </div>
                 <div class="col span-1-of-3 ">
                 <blockquote>
                         Inexpensive, healthy and great-tasting meals and beer. Having the German cuisine in your own town is a great feeling  We have lots of different food locals here in Lisbon, but no one comes even close to Wolff´s, seriousity and quality. Me and my family are so in love!
-                    <cite><img class="imagCite" src="resources/css/img/customer-2.jpg" alt="customer-opinion">(Joana Silva)</cite>
+                    <cite><img class="imagCite" src="resources/img/comment_users_photos/customer-2.jpg" alt="customer-opinion">(Joana Silva)</cite>
                 </blockquote>
             </div>
         </div>
     </section>
 
     <!--Cities locacions with hover images-->
-
-    <section id="contact" class="cities  js-Cities">
+    <section id="contact" class="cities js-Location">
          <div class="row">
                 <h2>We're currently in these cities</h2>
         </div>
@@ -192,7 +193,7 @@
         <div class="row js-animation-3">
          <div class="col span-1-of-4 box">
              <div class="text-hoover">
-                <img alt="city-images" src="resources/css/img/madrid.jpg">
+                <img alt="city-images" src="resources/img/cities/madrid.jpg">
               <div class="content">
                 <div class="text"><u> Wolff´s Biergarten Bilbao</u><br>
                     <br>
@@ -218,7 +219,7 @@
 
          <div class="col span-1-of-4 box">
             <div class="text-hoover">
-                <img alt="city-images" src="resources/css/img/san-francisco.jpg">
+                <img alt="city-images" src="resources/img/cities/san-francisco.jpg">
             <div class="content">
                 <div class="text"><u>Wolff´s Biergarten Alameda</u><br>
                     <br>
@@ -244,10 +245,10 @@
 
          <div class="col span-1-of-4 box">
              <div class="text-hoover">
-                <img alt="city-images" src="resources/css/img/berlin.jpg">
-             <div class="content">
-                    <div class="text"><u>Wolff´s Biergarten Schöneberg</u><br>
-                        <br>
+                <img alt="city-images" src="resources/img/cities/berlin.jpg">
+             <div class="content ">
+                    <div class="text "><u>Wolff´s Biergarten Schöneberg</u><br>
+                       <br>
                         Gotenstraße 1, 10829,<br>
                         Berlin, Germany
                     </div>
@@ -270,7 +271,7 @@
 
              <div class="col span-1-of-4 box">
                 <div class="text-hoover">
-                        <img alt="city-images" src="resources/css/img/Dublin.jpg">
+                        <img alt="city-images" src="resources/img/cities/Dublin.jpg">
                      <div class="content">
                         <div class="text"><u>Wolff´s BierGarten Liberties</u><br>
                             <br>

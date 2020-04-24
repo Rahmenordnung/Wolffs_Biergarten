@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Wolff&#039;s Stubgarten, the best city summer outdoor restaurants, die beste Sommergarten in deine Stadt, la mejor terraza de verano, cerveza sabrosa. ">
         <!--load all styles -vendors -->
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"> 
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
@@ -15,9 +15,9 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,200;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
-        
+
         <title>Stubgarten</title>
-        
+
         <!--Favicon logo links -->
         <link rel="apple-touch-icon" sizes="180x180" href="/resources/fav-icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/resources/fav-icon/favicon-32x32.png">
@@ -28,9 +28,9 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="/resources/fav-icon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        
+
     </head>
-    
+
     <body>
         <header>
             <nav>
@@ -47,21 +47,21 @@
                 </div>
             </nav>
             <div class="hero-text-box">
-                	<h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
+                    <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
                     <a class="btn btn-full js-scrollToPrice" href="#"> I'm hungry </a>
                     <a class="btn btn-ghost js-scrollToStart" href="#"> Show me more </a>
             </div>
-        
+
         </header>s
-        
-  
+
+
         <section class="features js-section-features ">
-            
+
         <div class="row">
             <h2>  Food fast &mdash;but enjoy the best beer ... </h2>
             <p class="long-food-description">WALZWERK Restaurant offers authentic and unique East German cuisine in the San Francisco Mission district since 1999.  And we are still here for you in such difficult times!</p>
             <br>
-                
+
             <p class="health-specs">
             We are using specific, all encompassing cleansing methods, allowing no one to work with any type of symptom as well as following all current CDC guidelines.
             </p>
@@ -76,7 +76,7 @@
                 <div class="col span-1-of-3 box">
                     <i class="ion-beer icon-big"></i>
                     <h3>The beer, a german meaning</h3>
-                    <p>We offer a well crafted  selection of German beers and wine to pair up with our delicious meals. 
+                    <p>We offer a well crafted  selection of German beers and wine to pair up with our delicious meals.
                 Our East German favorites are: Köstritzer Schwarzbier and Radeberger Pilsner.</p>
 
                 </div>
@@ -86,7 +86,7 @@
                     <p> All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
 
                     </div>
-                
+
             </div>
         </section>
 
@@ -95,61 +95,61 @@
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css//img/pfannkuchensuppe.jpg" alt="Phannkusche">
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/Hann%C3%B6versche-Erbsensuppe.jpg" alt="Erbsuppe">
 
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/labskaus.jpg" alt="labskaus">
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/schitzel.jfif" alt="schnitzel">
-                    
+
                 </figure>
             </li>
-        
+
         </ul>
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/eisbein.jpg" alt="eisbein">
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/spatzle.jpg" alt="spatzle">
 
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/weinwurst.jpg" alt="weinwurst">
-                    
+
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
                     <img src="resources/css/img/currywurst.jpg" alt="schnitzel">
-                    
+
                 </figure>
             </li>
-        
+
          </ul>
     </section>
 
-              
+
         <section id="about" class="enjoy-section">
         <div class="row">
             <h2>How it is? &mdash; To enjoy summer</h2>
@@ -157,7 +157,7 @@
             <div class="row">
                 <div class="col span-1-of-2 enjoy-box">
                     <img src="resources/css/img/Munich_Eye.jpg" alt="Biergarten" class="BierPlace js-animation-2">
-                    
+
                 </div>
                 <div class="col span-1-of-2 enjoy-box">
                     <div class="steps_enjoy">
@@ -171,19 +171,19 @@
                     <div id="yellow">3</div>
                         <p> Or night time people feel the people tingle, and how the day goes away</p>
                     </div>
-                    
+
                     <a href="#" class="btn-app"><img alt="buttons" src="resources/css/img/beer_logo.jpg"></a>
                     <a href="#" class="btn-app"><img alt="buttons" src="resources/css/img/people.jpg"></a>
-                    
-        
+
+
                 </div>
-            
+
             </div>
-        
-            
-        
+
+
+
         </section>
-        
+
         <section id="contact" class="cities">
          <div class="row">
                 <h2>We're currently in these cities</h2>
@@ -207,7 +207,7 @@
             <a href="#">@omnifood_mad</a>
              </div>
         </div>
-             
+
          <div class="col span-1-of-4 box">
             <img alt="city-images" src="resources/css/img/san-francisco.jpg">
              <h3>San Francisco</h3>
@@ -268,8 +268,8 @@
              </div>
          </div>
         </div>
-    </section>        
-        
+    </section>
+
         <section id="projects" class= "section-testimonials">
             <div class="row">
                 <h2>Title: Our customers can't live without us</h2>
@@ -280,7 +280,7 @@
                         Wolff´s Garten is just awesome! I just launched a startup here in Dublin which leaves me with no time for cooking, so each time I finsh my day I pass by and I find time to relay myself, alone or with friends, I couldn't live without my daily breaks!
                     <cite><img class="imagCite" src="resources/css/img/customer-1.jpg" alt="customer-opinion">(Seon Connor)</cite>
                 </blockquote>
-                
+
                 </div>
                 <div class="col span-1-of-3 ">
                 <blockquote>
@@ -293,10 +293,10 @@
                         Inexpensive, healthy and great-tasting meals and beer. Having the German cuisine in your own town is a great feeling  We have lots of different food locals here in Lisbon, but no one comes even close to Wolff´s, seriousity and quality. Me and my family are so in love!
                     <cite><img class="imagCite" src="resources/css/img/customer-2.jpg" alt="customer-opinion">(Joana Silva)</cite>
                 </blockquote>
-                
+
                 </div>
-                
-            </div>    
+
+            </div>
         </section>
         <section class="special-summer-offers js-Prices">
             <div class="row">
@@ -320,7 +320,7 @@
                             <a href="#" class="btn btn-full">Sign up now</a>
                         </div>
                         <div class="price">
-                        
+
                         </div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                             <a href="#" class="btn btn-ghost">Sign up now</a>
                         </div>
                         <div class="price">
-                        
+
                         </div>
                     </div>
                 </div>
@@ -357,13 +357,13 @@
                                 <li><i class="ion-android-done icon-small"></i>Order from 8 am to 12 pm</li>
                                 <li><i class="ion-android-done icon-small"></i>Free delivery</li>
                                 <li><i class="icon-small"></i></li>
-                                
+
                             </ul>
                         <div >
                             <a href="#" class="btn btn-ghost">Sign up now</a>
                         </div>
                         <div class="price">
-                        
+
                         </div>
                     </div>
                 </div>
@@ -375,8 +375,8 @@
             </div>
             <div class="row" id="form">
                 <form method="post" action="contact-form.php" class="contact-form">
-                    
-                        <div class="row"> 
+
+                        <div class="row">
                             <?php
                         if($_GET['success'] == 1) {
                             echo "<div class=\"form-messages success\">
@@ -386,35 +386,35 @@
                             echo "<div class=\"form-messages error\">
                                 Ooops, the rats ate the cable, please try again!
                             </div>";
-                        } 
+                        }
                             ?>
-                         
-                        </div> 
-                    <div class="row">   
-                        
+
+                        </div>
+                    <div class="row">
+
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
-                        
+
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
-                            
+
                         </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="email">Email</label>
-                        
+
                         </div>
                         <div class="col span-2-of-3">
                             <input type="email" name="email" id="email" placeholder="Your email" required>
-                            
+
                         </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="find-us">How did you find us?</label>
-                        
+
                         </div>
                         <div class="col span-2-of-3">
                             <select name="find-us" id="find-us">
@@ -423,7 +423,7 @@
                                 <option value="adds">Advertisment</option>
                                 <option value="other">Other</option>
                             </select>
-                            
+
                         </div>
                     </div>
                     <div class="row">
@@ -479,58 +479,58 @@
                     Copyright &copy; by Wolff´s. All rights reserved.
                 </p>
             </div>
-            
-    </footer>   
 
-        
+    </footer>
 
-    
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script  src="resources/js/script.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>    
-    
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+
     </body>
 </html>
-    
 
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
