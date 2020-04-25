@@ -1,7 +1,5 @@
 /* global $ */
 
-
-
 /* sticky navigation with some code from "waypoint" plugin*/
 
 $('document').ready(function() {
@@ -18,8 +16,7 @@ $('.js-section-features').waypoint(function(direction) {
 });
 
 
-
- /* Scroll on buttons */
+/* Scroll on buttons */
 /*index*/
 
      $('.js-scrollToPrice').click(function () {
@@ -62,15 +59,7 @@ $('.js-section-features').waypoint(function(direction) {
     });
 
 
-
-
-
-
-
-
-
-
-    /* mobile navigation---responsive */
+ /* mobile navigation---responsive */
 
     $('.js-mobileIcon').click(function() {
         var nav = $('.js-main-nav');
@@ -203,7 +192,7 @@ $(function() {
     });
 
 
-/*confirmation/cancel modal form*/
+
 
 
 
