@@ -19,6 +19,7 @@
     padding: 8px;
     position: relative;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 100%;
 }
 .da-thumbs li a,
 .da-thumbs li a img {
