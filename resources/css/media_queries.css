@@ -22,6 +22,7 @@
     body {font-size:18px;}
     section { padding: 60px 0;}
     .section {padding: 80px 5px;}
+
     /*menu navbar*/
     .logo{ height: 75px; }
     .main-nav li{ margin-left: 25px; }
@@ -34,9 +35,9 @@
     #takeway_important{margin-left: 20%;}
     .long-food-description,
     .health-specs{
-    width: 80%;
-    margin-left: 10%;
-    }
+        width: 80%;
+        margin-left: 10%;
+        }
 
     /*index*/
     .enjoy-box { margin-top: 10px;  }
@@ -44,9 +45,7 @@
     .enjoy-box: { margin-bottom: 40px }
     .enjoy-box:last-of-type{ margin-bottom: 10px }
     .enjoy-box:first-child{ margin-top: 20%;}
-    .icon-small{
-        margin-right: 5px;
-        }
+    .icon-small{margin-right: 5px;}
     .price-offer{
         width: 100%;
         margin-left: 0%;
@@ -81,12 +80,14 @@
     .city-feature{ font-size: 90%; }
     .contact-form,
     #map{width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;}
+        margin-left: 5%;
+        margin-right: 5%;
+        }
     }
+
     .form-box{ width: 100%;
                 margin-bottom: 20px
-                }
+            }
     #important_message,
     #takeway_inportant{margin-left: 10%;}
 
@@ -100,35 +101,33 @@
     .hero-text-box,
     .hero-COVID-box{ padding: 0 8%; }
     .hero-text-box{ padding: 0 8%;
-                    margin-top: 20%;}
+                    margin-top: 20%;
+                  }
     .col {width: 100%;
           margin: 0 0 4% 0;
-    }
+        }
     h1{ font-size: 180%; }
     h2{ font-size: 150%;
         float: left;}
 
     /*menu navbar*/
-    .navbar-menu-bar{padding: 3px;}
-
+   .navbar-menu-bar{padding: 3px;}
    .main-nav{ display: none; }
    .mobile-nav-icon {
         display: inline-block;
     }
     .main-nav {
-    float:left;
-    margin-top: 35px;
-    font-size: 13px;
-    margin-left: 5px;
-    font-weight: 400;
-    }
+        float:left;
+        margin-top: 35px;
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: 400;
+        }
     .logo{
         height: 60px;
         margin-left: 5px;
     }
-    .main-nav  li{
-        display: block;
-    }
+    .main-nav  li{display: block;}
     .main-nav li a:link,
     .main-nav li a:visited{
         display: block;
@@ -141,13 +140,13 @@
     .sticky .main-nav li a:visited{ padding: 10px 0px; }
     .sticky .mobile-nav-icon i { color:#de1010; }
     .sticky .mobile-nav-icon i { margin-top:10px; }
-
     .free_offer_image {width: 240%;}
-
-    /*menu food*/
     .long-food-description,
     .content {height: 80%;}
     .text-hoover .content:hover .text {font-size:x-large;}
+
+    /*menu food*/
+
     .health-specs{
         width:  100%;
         margin-left: 0%;
@@ -178,7 +177,6 @@
     .div#black{    font-size: x-large; }
     .div#red{    font-size: x-large; }
     .div#yellow{    font-size: x-large;}
-
     .enjoy-box: { margin-bottom: 20px }
     .enjoy-box:last-of-type{ margin-bottom: 20px }
 
@@ -201,12 +199,12 @@
     .contact-form,
     .form-box{ width: 100%;
                 margin: 0 auto;
-                height: auto;}
+                height: auto;
+             }
 
     #map{width: 90%;
     margin-left: 5%;
     margin-right: 5%;}
-
     .social-icons i{
     margin-top: 10px;
     }
@@ -222,11 +220,6 @@
 
     }
 
-
-
-
-/*modal lucher/
-/*------------------------------*/
 
 
 

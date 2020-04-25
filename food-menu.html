@@ -12,7 +12,7 @@
         <!--load all styles -resources -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/media_queries.css">
-
+        <!--Google fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,200;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
 
@@ -23,7 +23,7 @@
 
         <title>Stubgarten</title>
 
-        <!--Favicon logo links -->
+        <!--Favicon logo links ads an icon in the browser for the page -->
 
         <link rel="manifest" href="/resources/fav-icon/site.webmanifest">
         <link rel="mask-icon" href="/resources/fav-icon/safari-pinned-tab.svg" color="#5bbad5">
@@ -338,27 +338,23 @@
         </div>
     </footer>
 
-
-          <!--Scripts links-->
+    <!-- jquery link scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- jquery personal script-->
     <script  src="resources/js/script.js"></script>
+    <!--jquery plugin links-->
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="vendors/js/jquery.hoverdir.js"></script>
-
-          <!--Scripts java script-->
+    <!--slider javascript-->
         <script>
-
-             var slideIndex = 1;
+            var slideIndex = 1;
           showSlides(slideIndex);
-
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
+            function plusSlides(n) {
+          showSlides(slideIndex += n);
           }
-
           function currentSlide(n) {
             showSlides(slideIndex = n);
           }
-
           function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");

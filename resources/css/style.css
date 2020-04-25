@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box; /*sets the default css rules to zero*/
 }
+*:focus{  outline: none; } /*desactivate the default chome outlining in blue from the  form*/
 
 html,
 body{
@@ -199,7 +200,6 @@ input[type=submit]{ background-color: #ff3838; }
 .btn-ghost:active{
     border: 1px solid #ff3838;
     color:#fff;
-
 }
 
 /*------------------------------*/
@@ -211,12 +211,10 @@ input[type=submit]{ background-color: #ff3838; }
 .image_hero_bier,
 .image_hero_connect
 {
-
     background-size:cover;
     background-position: center;
     height: 100vh;/*one full screen*/
     background-attachment: fixed;
-
 }
 .image_hero_food{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/grill.jpg);/*shadow effect on image, double layer*/}
 .image_hero_bier{    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(img/hero_big_images/taste.jpg);/*shadow effect on image, double layer*/}
@@ -233,7 +231,6 @@ input[type=submit]{ background-color: #ff3838; }
     transform: translate(-50%, -50%);/* tansformation of the distances in the smae row with  the specified dimensions*/
 }
 
-
 .logo{
     height: 116px;
     width: auto;
@@ -242,11 +239,8 @@ input[type=submit]{ background-color: #ff3838; }
     border:1px double #917e7e;
     border-radius: 41%;
     margin-bottom: 5px;
-
-
 }
 .logo-borders{
-
     height: 57px;
     width: auto;
     float:left;
@@ -255,8 +249,6 @@ input[type=submit]{ background-color: #ff3838; }
     border-radius: 41%;
     display: none;
     margin-bottom: 5px;
-
-
 }
 
 /* main navigation */
@@ -265,7 +257,6 @@ input[type=submit]{ background-color: #ff3838; }
     list-style: none;
     margin-top: 50px;
     font-weight: 700;
-
 }
 .main-nav li{
     display: inline-block;
@@ -281,7 +272,6 @@ input[type=submit]{ background-color: #ff3838; }
     font-size:90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
-
 }
 
 .main-nav li a:hover,
@@ -301,7 +291,6 @@ input[type=submit]{ background-color: #ff3838; }
 .mobile-nav-icon i {
     font-size: 200%;
     color:#bac114;
-
 }
 
 /* sticky navigation */
@@ -317,21 +306,13 @@ input[type=submit]{ background-color: #ff3838; }
 }
 
 .sticky .main-nav{ margin-top: 22px; }
-
-
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     padding: 20px 0px;
     color:#555;
-
 }
-.sticky .logo{
-    display: none;
-}
-
-.sticky .logo-borders{
-    display: block;
-}
+.sticky .logo{display: none;}
+.sticky .logo-borders{display: block;}
 
 /*------------------------------*/
 /*meals first page*/
@@ -372,7 +353,6 @@ input[type=submit]{ background-color: #ff3838; }
     opacity: 1;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
-
 }
 
 /* food meals page and text setings*/
@@ -394,7 +374,6 @@ input[type=submit]{ background-color: #ff3838; }
 }
 
 .food_menu{font-size: 16px;}
-
 .food_price{float:right;}
 
 .menu-text{
@@ -431,7 +410,6 @@ input[type=submit]{ background-color: #ff3838; }
 .title_menu:hover::after{
     left:0%;
     width:100%;
-
 }
 
 .menu_icon{
@@ -458,7 +436,6 @@ input[type=submit]{ background-color: #ff3838; }
     -ms-transform: scale(1.2) rotate(-5deg);
     transform: scale(1.2) rotate(-5deg);
 }
-
 .animate-upload{
     -moz-transform: scale(1.2) translateY(-10px);
     -webkit-transform: scale(1.2) translateY(-10px);
@@ -489,7 +466,7 @@ main{
 }
 
 .main-header:after {
-        display: block;
+    display: block;
     height: 2px;
     background-color: #ee1a00;
     content:"";/*always specify content for pseudoclases*/
@@ -502,7 +479,6 @@ main{
                 margin-top: 20px;
                 margin-bottom: 25px;
                 line-height: 1.2;
-
 }
 
 .main-header  h3 span {color: #b50d10;}
@@ -523,7 +499,6 @@ main{
 .drink_price{
     float:right;
     margin-right: 20%;
-
 }
 .card h3{
     margin-bottom:32
@@ -561,31 +536,24 @@ main{
     cursor: pointer;
 }
 
-.btn:hover{
-    opacity: 0.8;
-}
+.btn:hover{opacity: 0.8;}
 
-
-
-#about-drinks {
-    background-color: #fff;
-}
+#about-drinks {background-color: #fff;}
 
 .drinks-box{color:#555;}
 
 .menu-section{
-        width: 90%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 7%;
     border-bottom: 1px solid yellow;
     padding: 5px;
     margin-left: 20px;
-
 }
 
 .menu-section-title,
 .menu-items{
-        margin-left: 35%;
+    margin-left: 35%;
     margin-bottom: 24px;
     line-height: 145%;
 }
@@ -598,8 +566,6 @@ main{
     margin:10 auto;
     margin-bottom: 45px;
 }
-
-
 
 /* slider setings*/
 /*-*-*-*-*-*-*-*-*-*-**-*-*/
@@ -650,7 +616,7 @@ text-align: center;
 font-weight: 600;
 
 }
-/* Number text (1/10 etc) */
+/* Number text (1/17 etc) */
 .numbertext {
 color: #1c0001;
 font-size: 14px;
@@ -694,7 +660,6 @@ to {opacity: 1}
 .prev, .next,.text {font-size: 11px}
 .features-slider{width: 90%;
                 margin: 0 auto;}
-
 }
 
 /*--------------------------------*/
@@ -803,12 +768,12 @@ input{
 }
 
 .enjoy-box,.offers-box{ margin-top: 30px; }
-
 .enjoy-box:last-child{margin-top: 0% }
-
 .free_offer_image{ width: 100%;}
+
 .Biergarten{ width:90%;
-            height: 400px; }
+            height: 400px;
+}
 
 .btn-app{
     width: 100px;
@@ -816,8 +781,7 @@ input{
 }
 
 .steps_enjoy{ margin-bottom: 50px;}
-
-steps_enjoy:last-of-type{ margin-bottom: 180px; }
+.steps_enjoy:last-of-type{ margin-bottom: 180px; }
 
 .steps_enjoy div,
 .alert{
@@ -834,9 +798,7 @@ steps_enjoy:last-of-type{ margin-bottom: 180px; }
     margin-right: 25px;
 }
 
-
 #black{ border:2px solid #000; }
-
 #yellow{border:2px solid #fed330; }
 
 .btn-app:link,
@@ -846,7 +808,6 @@ btn-app:visited{ border: 0; }
     height: 205px;
     width: 200px;
     margin: 10px;
-
 }
 
 /*------------------------------*/
@@ -857,7 +818,6 @@ btn-app:visited{ border: 0; }
     height: auto;
     width: 100%;
     margin-bottom: 50px;
-
 }
 
 .city-feature{ margin-bottom:5px; }
@@ -872,7 +832,7 @@ btn-app:visited{ border: 0; }
     background-size: cover;
     color: #fff;
     background-attachment: fixed;/*fixing the image so that remains in the same place*/
-    }
+}
 
 blockquote{
     padding: 2%;
@@ -896,7 +856,6 @@ blockquote:before{  /*brackets opening symbol*/
     position: absolute; /* must have a parent with absolute position in order to work correctly*/
     top:-5px;
     left:-5px;
-
 }
 
 cite img{
@@ -904,10 +863,7 @@ cite img{
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
-
 }
-
-
 
 /*------------------------------*/
 /*Summer offers special*/
@@ -939,7 +895,6 @@ cite img{
 .price-offer div:last-child{
     text-align: center;
     border:0;
-
 }
 
 .offerSpecialPrice{
@@ -947,13 +902,11 @@ cite img{
     margin-bottom: 10px;
     font-weight: 100;
     color:#ee1a00;
-
 }
 
 .offerSpecialPrice span{
     font-size:30%;
     font-weight:300;
-
 }
 
 .offerMeal{ font-size:80%; }
@@ -974,7 +927,7 @@ cite img{
       display:block;
       cursor:pointer;
       overflow:hidden;
-      }
+}
  .content {
       opacity:0;
       position:absolute;
@@ -1010,7 +963,6 @@ cite img{
 
 .contact-section{
     padding: 0;
-
 }
 .form-box{
     background-color: rgba(255,255, 255, 0.8);
@@ -1022,7 +974,6 @@ cite img{
 .contact-form{
     width: 60%;
     margin: 0 auto;
-
 }
 
                 /* only contact forms with the capacity of choosing fields only with  he sepcified type inside*/
@@ -1047,16 +998,12 @@ textarea {
     border-radius: 3px;
     border: 1px solid #ccc;
     margin-bottom: 15px;
-
 }
 
 textarea{ height: 100px; }
-
 input[type=checkbox] { margin: 10px 5px 10px 0; }
-
 .connect-titles{margin-top: 6%}
 
-*:focus{  outline: none; } /*desactivate the default chome outlining in blue from the  form*/
 
 
 .form-messages{
@@ -1068,14 +1015,8 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
     color:#333;
 
 }
-.success{
-    background-color: rgba(41, 221, 76, 0.76);
-}
-
-.error{
-    background-color: rgba(216, 11, 11, 0.72);
-}
-
+.success{background-color: rgba(41, 221, 76, 0.76);}
+.error{background-color: rgba(216, 11, 11, 0.72);}
 
 /*------------------------------*/
 /* Footer */
@@ -1105,13 +1046,11 @@ footer{
 .social-icons li{
     display: inline-block;
     margin-right: 20px;
-
 }
 
 .footer-nav li:last-child
 .social-icons li:last-child{
    margin-right: 0;
-
 }
 
 .footer-nav li a:link,
@@ -1123,7 +1062,6 @@ footer{
     color:#fd0000;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
-
 }
 
 .footer-nav li a:hover,
@@ -1132,10 +1070,7 @@ footer{
 }
 
 .social-icons li a:hover,
-.social-icons li a:visited{
-    font-size: 190%;
-}
-
+.social-icons li a:visited{font-size: 190%;}
 .ion-social-googleplus-outline,
 .ion-social-instagram-outline,
 .ion-social-twitter-outline,
@@ -1143,13 +1078,11 @@ footer{
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     margin: 0 5px;
-
 }
 
 .ion-social-facebook-outline:hover,
 .ion-social-facebook-outline:visited{
     color:#3b5998;
-
 }
 
 .ion-social-twitter-outline:hover,
@@ -1160,7 +1093,6 @@ footer{
 .ion-social-instagram-outline:hover,
 .ion-social-instagram-outline:visited{
     color:#dd4b39;
-
 }
 
 .ion-social-googleplus-outline:hover,
@@ -1179,11 +1111,9 @@ footer p{
     color: #ed0606;
     text-align: center;
     font-weight: 500;
-
 }
 
 .footer-header{margin: auto;}
-
 .extra_links{width: 100%}
 
 

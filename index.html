@@ -13,11 +13,6 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link href="resources/css/easyScrollDots.css" rel="stylesheet">
 
-
-
-
-
-
     <!--load all styles -resources -->
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/media_queries.css">
@@ -92,7 +87,6 @@
                 <i class=" ikon_2 ion-beer icon-big"></i>
                 <h3>The beer, a german meaning</h3>
                 <p>We offer a well crafted selection of German beers and wine to pair up with our delicious meals. Our East German favorites are: Köstritzer Schwarzbier and Radeberger Pilsner.</p>
-
             </div>
             <div class="col span-1-of-3 box German_Vegan">
                 <i class=" ikon_3 ion-leaf icon-big yellow"></i>
@@ -130,9 +124,7 @@
                     <div>
                         <a href="#" class="btn btn-full">Sign up now</a>
                     </div>
-                    <div class="price">
-
-                    </div>
+                    <div class="price"></div>
                 </div>
             </div>
             <div class="col span-1-of-3">
@@ -151,9 +143,7 @@
                     <div>
                         <a href="#" class="btn btn-ghost">Sign up now</a>
                     </div>
-                    <div class="price">
-
-                    </div>
+                    <div class="price"></div>
                 </div>
             </div>
             <div class="col span-1-of-3">
@@ -173,13 +163,11 @@
                     <div>
                         <a href="#" class="btn btn-ghost">Sign up now</a>
                     </div>
-                    <div class="price">
-                    </div>
+                    <div class="price"></div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!--Easy scrolling plug-in bullets-->
     <div>
@@ -311,31 +299,26 @@
             </p>
         </div>
     </footer>
-
+    <!-- jquery link scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
-        <script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
-    <script src="resources/js/jquery.fullpage.js"></script>-->
-    <script src="resources/js/easyScrollDots.js"></script>
-
+    <!-- jquery personal script-->
     <script src="resources/js/script.js"></script>
+    <!--jquery plugin links-->
     <script src="resources/js/modal.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
-
+    <script src="resources/js/easyScrollDots.js"></script>
+    <!-- scrolling menu intiatilzation bulletpoint scrolling menu -->
     <script type="text/javascript">
         easyScrollDots({
-
             // sets to true if you have a fixed navigation
             'fixedNav': false,
-
             // unique ID of your fixed navigation
             'fixedNavId': '',
-
             // set to true if your navigation is only sticky when scrolling up
             'fixedNavUpward': false
-
         });
     </script>
+        <!--modal javascript -->
     <script>
         var buttons = document.querySelectorAll('button');
         var modal = document.querySelector('.modal');
@@ -350,13 +333,9 @@
         function updateParagraph() {
             outputParagraph.textContent = email;
         }
-
-
-
         function closeModal() {
             modal.style.display = 'none';
             backdrop.style.display = 'none';
-
         }
         updateParagraph();
 
