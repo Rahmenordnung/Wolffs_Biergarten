@@ -1,3 +1,6 @@
+
+/*used in food menu hover text effect*/
+
 .hover-menu-boxes{
     border-top: 5px solid;
     border-image:    linear-gradient(to right , #000000, #100608, #221012, #301315, #EF0606, #EF0606, #EF0606, #EF0606, #f6ff02, #f6ff02, #f6ff02, #f6ff02) 8; /*multicolor borders*/
